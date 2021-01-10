@@ -7,8 +7,9 @@
 //
 
 import UIKit
+import MessageKit
 
-class HomeScreenViewController: UIViewController {
+class HomeScreenViewController: MessagesViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
