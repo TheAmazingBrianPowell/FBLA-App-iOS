@@ -100,6 +100,7 @@ class SignUpViewController: UIViewController {
 				let verifyView  = mainStoryBoard.instantiateViewController(withIdentifier: "VerifyViewController") as! VerifyViewController
 				verifyView.email = self.email.text!
 				verifyView.pass = self.pass.text!
+				verifyView.name = self.name.text!
 				verifyView.modalPresentationStyle = .fullScreen
 				self.present(verifyView, animated: true, completion: nil)
 				return

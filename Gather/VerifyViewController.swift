@@ -13,6 +13,7 @@ class VerifyViewController: UIViewController {
 	@IBOutlet weak var errorText: UILabel!
 	var email:String = ""
 	var pass:String = ""
+	var name:String = ""
 	@IBOutlet weak var verifyField: UITextField!
 	@IBOutlet weak var successText: UILabel!
 	
@@ -166,7 +167,65 @@ class VerifyViewController: UIViewController {
 	}
 	
 	@IBAction func sendNewCode(_ sender: Any) {
-		
+			load.startAnimating()
+			errorText.text = ""
+			var output:String?
+			var errors:String?
+			guard let requestUrl:URL = URL(string: "https://fbla-app.herokuapp.com/create") else {
+				errorText.text = "An error occurred. Please try again."
+				return
+			}
+			let postString = "email=\(email)&pass=\(pass)&name=\(name)"
+			
+			var request = URLRequest(url: requestUrl)
+			request.httpMethod = "POST"
+			
+			request.httpBody = postString.data(using: String.Encoding.utf8);
+
+			let task = URLSession.shared.dataTask(with: request) { (data, response, error) in
+						
+					// Check for Error
+					if error != nil {
+						errors = "An error occurred. Please try again."
+						return
+					}
+				 
+					// Convert HTTP Response Data to a String
+					if let data = data, let dataString = String(data: data, encoding: .utf8) {
+						output = dataString
+						return
+					}
+			}
+			task.resume()
+			var timeOut:Int = 0
+			Timer.scheduledTimer(withTimeInterval: 0.1, repeats: true) { (timer) in
+				if self.errorText.text != "" {
+					self.load.stopAnimating()
+					timer.invalidate()
+					return
+				} else if errors != nil {
+					self.errorText.text = errors
+					self.load.stopAnimating()
+					timer.invalidate()
+					return
+				} else if output == "Success!" {
+					self.load.stopAnimating()
+					print("Request took \(Double(timeOut)/10) seconds")
+					timer.invalidate()
+					return
+				} else if output != nil {
+					self.load.stopAnimating()
+					self.errorText.text = output
+					timer.invalidate()
+					return
+				} else if timeOut > 200 {
+					self.load.stopAnimating()
+					self.errorText.text = "Network timeout. Please try again."
+					timer.invalidate()
+					return
+				}
+				timeOut+=1
+		}
 	}
 	
 }

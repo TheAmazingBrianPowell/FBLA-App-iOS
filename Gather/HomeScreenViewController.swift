@@ -9,7 +9,7 @@
 import UIKit
 import MessageKit
 
-class HomeScreenViewController: MessagesViewController {
+class HomeScreenViewController: UITabBarController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

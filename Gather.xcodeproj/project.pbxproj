@@ -22,8 +22,10 @@
 /* Begin PBXFileReference section */
 		2408C8C124F34AE5004D7F8E /* HomeScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenViewController.swift; sourceTree = "<group>"; };
 		2408C8C524F441E9004D7F8E /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		24429292261052570091C9CA /* Gather.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Gather.entitlements; sourceTree = "<group>"; };
+		24429295261053750091C9CA /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		24AC498424F84D6A007FCB1C /* VerifyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyViewController.swift; sourceTree = "<group>"; };
-		24CC9EA424F2355C00B5E88C /* FBLA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FBLA.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		24CC9EA424F2355C00B5E88C /* Gather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24CC9EA724F2355C00B5E88C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		24CC9EA924F2355C00B5E88C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		24CC9EAB24F2355C00B5E88C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -51,7 +53,7 @@
 		24CC9E9B24F2355B00B5E88C = {
 			isa = PBXGroup;
 			children = (
-				24CC9EA624F2355C00B5E88C /* FBLA */,
+				24CC9EA624F2355C00B5E88C /* Gather */,
 				24CC9EA524F2355C00B5E88C /* Products */,
 				E669F21D3370F5FB728D048E /* Pods */,
 				768C6DB65395D58A384323FB /* Frameworks */,
@@ -61,14 +63,15 @@
 		24CC9EA524F2355C00B5E88C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				24CC9EA424F2355C00B5E88C /* FBLA.app */,
+				24CC9EA424F2355C00B5E88C /* Gather.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		24CC9EA624F2355C00B5E88C /* FBLA */ = {
+		24CC9EA624F2355C00B5E88C /* Gather */ = {
 			isa = PBXGroup;
 			children = (
+				24429292261052570091C9CA /* Gather.entitlements */,
 				2408C8C524F441E9004D7F8E /* SignUpViewController.swift */,
 				24AC498424F84D6A007FCB1C /* VerifyViewController.swift */,
 				2408C8C124F34AE5004D7F8E /* HomeScreenViewController.swift */,
@@ -79,8 +82,9 @@
 				24CC9EB024F2356300B5E88C /* Assets.xcassets */,
 				24CC9EB224F2356300B5E88C /* LaunchScreen.storyboard */,
 				24CC9EB524F2356300B5E88C /* Info.plist */,
+				24429295261053750091C9CA /* README.md */,
 			);
-			path = FBLA;
+			path = Gather;
 			sourceTree = "<group>";
 		};
 		768C6DB65395D58A384323FB /* Frameworks */ = {
@@ -103,9 +107,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		24CC9EA324F2355C00B5E88C /* FBLA */ = {
+		24CC9EA324F2355C00B5E88C /* Gather */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 24CC9EB824F2356300B5E88C /* Build configuration list for PBXNativeTarget "FBLA" */;
+			buildConfigurationList = 24CC9EB824F2356300B5E88C /* Build configuration list for PBXNativeTarget "Gather" */;
 			buildPhases = (
 				ECA7843B6CA743DAC4EA4193 /* [CP] Check Pods Manifest.lock */,
 				24CC9EA024F2355C00B5E88C /* Sources */,
@@ -117,9 +121,9 @@
 			);
 			dependencies = (
 			);
-			name = FBLA;
+			name = Gather;
 			productName = FBLA;
-			productReference = 24CC9EA424F2355C00B5E88C /* FBLA.app */;
+			productReference = 24CC9EA424F2355C00B5E88C /* Gather.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -137,7 +141,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 24CC9E9F24F2355C00B5E88C /* Build configuration list for PBXProject "FBLA" */;
+			buildConfigurationList = 24CC9E9F24F2355C00B5E88C /* Build configuration list for PBXProject "Gather" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -150,7 +154,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				24CC9EA324F2355C00B5E88C /* FBLA */,
+				24CC9EA324F2355C00B5E88C /* Gather */,
 			);
 		};
 /* End PBXProject section */
@@ -367,15 +371,17 @@
 			baseConfigurationReference = C29C9F1FA4618A901BF49765 /* Pods-FBLA.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Gather/Gather.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8A4BHB2288;
-				INFOPLIST_FILE = FBLA/Info.plist;
+				INFOPLIST_FILE = Gather/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = roseburg.FBLA;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -386,15 +392,17 @@
 			baseConfigurationReference = 500AF8A40EED9A16ED1A878D /* Pods-FBLA.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Gather/Gather.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8A4BHB2288;
-				INFOPLIST_FILE = FBLA/Info.plist;
+				INFOPLIST_FILE = Gather/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = roseburg.FBLA;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -403,7 +411,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		24CC9E9F24F2355C00B5E88C /* Build configuration list for PBXProject "FBLA" */ = {
+		24CC9E9F24F2355C00B5E88C /* Build configuration list for PBXProject "Gather" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				24CC9EB624F2356300B5E88C /* Debug */,
@@ -412,7 +420,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		24CC9EB824F2356300B5E88C /* Build configuration list for PBXNativeTarget "FBLA" */ = {
+		24CC9EB824F2356300B5E88C /* Build configuration list for PBXNativeTarget "Gather" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				24CC9EB924F2356300B5E88C /* Debug */,
