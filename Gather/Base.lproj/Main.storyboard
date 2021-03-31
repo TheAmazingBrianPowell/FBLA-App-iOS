@@ -165,7 +165,7 @@
         <!--Join-->
         <scene sceneID="tix-lA-sPJ">
             <objects>
-                <viewController id="nkU-7W-T3P" sceneMemberID="viewController">
+                <viewController id="nkU-7W-T3P" customClass="JoinChapterViewController" customModule="Gather" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="s7V-lN-HqU">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -185,9 +185,9 @@
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="276" id="y8o-be-GuK"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad" returnKeyType="join" textContentType="one-time-code"/>
                                 <connections>
-                                    <action selector="fieldsShouldReturn:" destination="Zhf-hx-Yg0" eventType="primaryActionTriggered" id="7Ek-qv-2lU"/>
+                                    <action selector="join:" destination="nkU-7W-T3P" eventType="primaryActionTriggered" id="IdC-3W-VWY"/>
                                 </connections>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nKs-Nj-xyk">
@@ -206,12 +206,21 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <action selector="SignUp:" destination="Zhf-hx-Yg0" eventType="touchUpInside" id="byz-5f-MeW"/>
+                                    <action selector="join:" destination="nkU-7W-T3P" eventType="touchUpInside" id="yvz-wA-2nr"/>
                                 </connections>
                             </button>
                             <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="KvR-Ax-djw">
                                 <rect key="frame" x="197" y="227" width="20" height="20"/>
                             </activityIndicatorView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sYE-Ec-xZI">
+                                <rect key="frame" x="69" y="225" width="276" height="0.0"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="276" id="wIT-vB-yhZ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" systemColor="systemRedColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="uTk-aD-fdk"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -220,17 +229,24 @@
                             <constraint firstItem="KvR-Ax-djw" firstAttribute="top" secondItem="nKs-Nj-xyk" secondAttribute="bottom" constant="28" id="0jy-1Z-5ad"/>
                             <constraint firstItem="LCZ-dV-Ga7" firstAttribute="top" secondItem="uTk-aD-fdk" secondAttribute="top" constant="52" id="L65-pk-uTj"/>
                             <constraint firstItem="nKs-Nj-xyk" firstAttribute="top" secondItem="2Xy-Ld-jjX" secondAttribute="bottom" constant="25" id="MaK-fD-Glz"/>
+                            <constraint firstItem="sYE-Ec-xZI" firstAttribute="centerX" secondItem="uTk-aD-fdk" secondAttribute="centerX" id="O8S-yF-t3X"/>
                             <constraint firstItem="2Xy-Ld-jjX" firstAttribute="centerX" secondItem="uTk-aD-fdk" secondAttribute="centerX" id="cc3-wJ-Buc"/>
                             <constraint firstItem="2Xy-Ld-jjX" firstAttribute="top" secondItem="LCZ-dV-Ga7" secondAttribute="bottom" constant="24" id="euu-l1-SKR"/>
                             <constraint firstItem="LCZ-dV-Ga7" firstAttribute="centerX" secondItem="uTk-aD-fdk" secondAttribute="centerX" id="nVi-Gw-w77"/>
+                            <constraint firstItem="sYE-Ec-xZI" firstAttribute="top" secondItem="nKs-Nj-xyk" secondAttribute="bottom" constant="26" id="qZn-7a-YsP"/>
                             <constraint firstItem="KvR-Ax-djw" firstAttribute="centerX" secondItem="uTk-aD-fdk" secondAttribute="centerX" id="ruB-sg-pAs"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Join" image="users" selectedImage="users" id="tUN-Ac-9QZ"/>
+                    <connections>
+                        <outlet property="chapterCode" destination="2Xy-Ld-jjX" id="gog-wc-CK9"/>
+                        <outlet property="errorText" destination="sYE-Ec-xZI" id="g1Z-Gi-TO1"/>
+                        <outlet property="load" destination="KvR-Ax-djw" id="MnI-7v-fef"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6vU-ms-voO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2751" y="-514"/>
+            <point key="canvasLocation" x="2750.7246376811595" y="-514.4021739130435"/>
         </scene>
         <!--Create-->
         <scene sceneID="Qg8-Ck-RNB">
@@ -255,7 +271,10 @@
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="276" id="1eC-TO-hsO"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="done"/>
+                                <connections>
+                                    <action selector="create:" destination="aRZ-SB-hQ3" eventType="primaryActionTriggered" id="gs0-Pv-dRv"/>
+                                </connections>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2hd-5d-YZA">
                                 <rect key="frame" x="69" y="169" width="276" height="30"/>
@@ -273,8 +292,7 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <action selector="SignUp:" destination="Zhf-hx-Yg0" eventType="touchUpInside" id="OSN-Ts-KF7"/>
-                                    <action selector="onPress:" destination="aRZ-SB-hQ3" eventType="touchUpInside" id="si1-Lu-4w7"/>
+                                    <action selector="create:" destination="aRZ-SB-hQ3" eventType="touchUpInside" id="9Ae-q1-0t4"/>
                                 </connections>
                             </button>
                             <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="Set-KA-sEG">
@@ -307,7 +325,7 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Create" image="plus" catalog="system" selectedImage="plus" id="8J2-1W-xgv"/>
                     <connections>
-                        <outlet property="chapterName" destination="qUl-UC-vud" id="DSV-Qo-uW7"/>
+                        <outlet property="chapterName" destination="qUl-UC-vud" id="tam-3R-Rzm"/>
                         <outlet property="errorText" destination="Ekm-Kd-qf2" id="XC0-BE-BmR"/>
                         <outlet property="load" destination="Set-KA-sEG" id="9zL-hm-d2c"/>
                     </connections>
