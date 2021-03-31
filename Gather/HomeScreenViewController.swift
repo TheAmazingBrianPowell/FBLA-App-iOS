@@ -2,8 +2,8 @@
 //  HomeScreenViewController.swift
 //  FBLA
 //
-//  Created by Brian Powell on 8/23/20.
-//  Copyright © 2020 Brian Powell. All rights reserved.
+//  Created by Brian Powell and Logan Bishop on 8/23/20.
+//  Copyright © 2021  Brian Powell and Logan Bishop. All rights reserved.
 //
 
 import UIKit
@@ -13,7 +13,6 @@ class HomeScreenViewController: UITabBarController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
         // Do any additional setup after loading the view.
     }
     
