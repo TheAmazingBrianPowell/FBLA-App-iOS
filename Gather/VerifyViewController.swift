@@ -38,11 +38,15 @@ class VerifyViewController: UIViewController {
 				self.load.stopAnimating()
 				
 				let mainStoryBoard : UIStoryboard = UIStoryboard(name: "Main", bundle:nil)
-				let homeView  = mainStoryBoard.instantiateViewController(withIdentifier: "CreateChapterController") as! CreateChapterController
+				var nextView: UIViewController
+				if Globals.isAdvisor == 1 {
+					nextView  = mainStoryBoard.instantiateViewController(withIdentifier: "CreateChapterController") as! CreateChapterController
+				} else {
+					nextView  = mainStoryBoard.instantiateViewController(withIdentifier: "JoinChapterViewController") as! JoinChapterViewController
+				}
+				nextView.modalPresentationStyle = .fullScreen
 				
-				homeView.modalPresentationStyle = .fullScreen
-				
-				self.present(homeView, animated: true, completion: nil)
+				self.present(nextView, animated: true, completion: nil)
 			} else if output != "" {
 				self.load.stopAnimating()
 				self.errorText.text = output

@@ -22,6 +22,7 @@ class JoinChapterViewController: UIViewController {
 	@IBOutlet weak var load: UIActivityIndicatorView!
 	
 	
+	
 	@IBAction func join(_ sender: Any) {
 		func createChapter (errors: String, output: String) {
 			if errors != "" {
@@ -51,6 +52,6 @@ class JoinChapterViewController: UIViewController {
 		}
 		
 		load.startAnimating()
-		Globals.request("/joinChapter", input: "email=\(Globals.email)&pass=\(Globals.pass)&chapterName=\(chapterCode.text!)", action: createChapter(errors: output:))
+		Globals.request("/joinChapter", input: "email=\(Globals.email)&pass=\(Globals.pass)&chapterCode=\(chapterCode.text!)", action: createChapter(errors: output:))
 	}
 }

@@ -10,6 +10,7 @@
 		0564BFE3C92169140020BB88 /* Pods_FBLA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC8C45C66D6835B370965B97 /* Pods_FBLA.framework */; };
 		2408C8C224F34AE5004D7F8E /* HomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2408C8C124F34AE5004D7F8E /* HomeScreenViewController.swift */; };
 		2408C8C624F441E9004D7F8E /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2408C8C524F441E9004D7F8E /* SignUpViewController.swift */; };
+		242C28F226156E6700C86643 /* ReportBugViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242C28F126156E6700C86643 /* ReportBugViewController.swift */; };
 		24414A1F2614184A00D71D2D /* CreateChapterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24414A1E2614184A00D71D2D /* CreateChapterController.swift */; };
 		24414A232614644B00D71D2D /* CreateChapterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24414A222614644B00D71D2D /* CreateChapterViewController.swift */; };
 		24414A2626146C3F00D71D2D /* JoinChapterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24414A2526146C3F00D71D2D /* JoinChapterViewController.swift */; };
@@ -26,6 +27,7 @@
 /* Begin PBXFileReference section */
 		2408C8C124F34AE5004D7F8E /* HomeScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenViewController.swift; sourceTree = "<group>"; };
 		2408C8C524F441E9004D7F8E /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		242C28F126156E6700C86643 /* ReportBugViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportBugViewController.swift; sourceTree = "<group>"; };
 		24414A1E2614184A00D71D2D /* CreateChapterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateChapterController.swift; sourceTree = "<group>"; };
 		24414A222614644B00D71D2D /* CreateChapterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateChapterViewController.swift; sourceTree = "<group>"; };
 		24414A2526146C3F00D71D2D /* JoinChapterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoinChapterViewController.swift; sourceTree = "<group>"; };
@@ -91,6 +93,7 @@
 				24CC9EA924F2355C00B5E88C /* SceneDelegate.swift */,
 				24CC9EAB24F2355C00B5E88C /* ViewController.swift */,
 				24CC9EAD24F2355C00B5E88C /* Main.storyboard */,
+				242C28F126156E6700C86643 /* ReportBugViewController.swift */,
 				24CC9EB024F2356300B5E88C /* Assets.xcassets */,
 				24CC9EB224F2356300B5E88C /* LaunchScreen.storyboard */,
 				24CC9EB524F2356300B5E88C /* Info.plist */,
@@ -232,6 +235,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				24CC9EAC24F2355C00B5E88C /* ViewController.swift in Sources */,
+				242C28F226156E6700C86643 /* ReportBugViewController.swift in Sources */,
 				2408C8C224F34AE5004D7F8E /* HomeScreenViewController.swift in Sources */,
 				2442929C2612A4190091C9CA /* Globals.swift in Sources */,
 				24CC9EA824F2355C00B5E88C /* AppDelegate.swift in Sources */,
