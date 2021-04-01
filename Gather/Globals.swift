@@ -9,7 +9,7 @@
 import UIKit
 
 struct Globals {
-	static let host = "http://localhost:8080"
+	static let host = "https://fbla-app.herokuapp.com"
 	static var email = ""
 	static var name = ""
 	static var pass = ""
@@ -60,5 +60,4 @@ struct Globals {
 			timeOut+=1
 		}
 	}
-	// https://fbla-app.herokuapp.com
 }
