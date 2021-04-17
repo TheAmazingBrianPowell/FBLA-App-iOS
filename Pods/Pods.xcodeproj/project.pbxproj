@@ -12,12 +12,14 @@
 		013766E23AAE4472AE3A6FC963625E96 /* ContactItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07CA49E50C2B5205D7596B97CFB0691 /* ContactItem.swift */; };
 		03277CC81DB5122A9A59EB7371198DA2 /* MediaItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DFA606483FD58B25CD914E1D4E3264 /* MediaItem.swift */; };
 		05AE89215EBE3211557F887F4010A227 /* Bundle+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A115AE13428E91EF3CBBD41514CCB6 /* Bundle+Extensions.swift */; };
+		0BD8F2F9B6707054E9108E7E359A093C /* Pods-Gather-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A150F37075E06DD31EB6784B54FE58 /* Pods-Gather-dummy.m */; };
 		112056E5122D1053A5D4421669A6EAAA /* InputBarAccessoryView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BD189F51E98DA73711C809761CDEA69 /* InputBarAccessoryView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		167E4A126AE4FFD17CD07204C7021882 /* InputPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E5F567A8A585F65EF54F18C574722A /* InputPlugin.swift */; };
 		1680682400ECA1585A4481F221CAAF7C /* Avatar.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0793901FE77E8B71684CA0541A7E98 /* Avatar.swift */; };
 		16CD5D7909E06B91CA6C4960FF626115 /* TypingIndicatorCellSizeCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99140727C6AE7A030EF062DF596C23AC /* TypingIndicatorCellSizeCalculator.swift */; };
 		18B86DFC6F50FCF66A28D8E8DCD5C24E /* TextMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A71ECE009B66C14ECF43E8BC6A33205 /* TextMessageCell.swift */; };
 		1922CB0E864B0D9A572DB599BBC054D5 /* AttachmentManagerDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795242F5350B16F41FEFA151C766EBC9 /* AttachmentManagerDataSource.swift */; };
+		1AB6196B0819B40F12115DDA99E79C76 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 711491B93268652C718943C9EECA578A /* Foundation.framework */; };
 		1ADB8437BCCE4318A3544203B239B494 /* MessageKind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CDEE46318DC712586BF834ACF597582 /* MessageKind.swift */; };
 		1CB8436B20DA88014F950C9E079FEC06 /* AttachmentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5603423BDE7E44E69D1B7CD3A6FB8B /* AttachmentsView.swift */; };
 		1E11A75D2A6405C52A9B206184D24F06 /* NSNotification+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64C0B94BD45DF37FD88DC6471EFCD79 /* NSNotification+Extensions.swift */; };
@@ -35,7 +37,6 @@
 		3F743A428C9EB7AB5BF6378A329EB514 /* InputBarAccessoryView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62D8A6CD589875631E867E9AC91F3BD3 /* InputBarAccessoryView.framework */; };
 		450E71EE1522114F0C3319E4FF17E712 /* NSMutableAttributedString+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CD22AA3411661E21766C871F1FCFFA3 /* NSMutableAttributedString+Extensions.swift */; };
 		452D81EC02FDAC6C51EF837BD72055DD /* MessagesDisplayDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B65BF144655AA7430D0DB273B2EB41 /* MessagesDisplayDelegate.swift */; };
-		49CD5F2B6F25EBE48D3A2AAFC54A8715 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 711491B93268652C718943C9EECA578A /* Foundation.framework */; };
 		4C83321831EBBF5ECE91F5247714A0E1 /* AvatarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CBFE0E3E1F5D1F418C1DBA4CCA739A5 /* AvatarView.swift */; };
 		4D591888CB5CF2B2DB3EB66E1B5590D2 /* MessageInputBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978253F61E90515AD46B70619F614D86 /* MessageInputBar.swift */; };
 		51E808EF092DEB87340FEE2086504899 /* MessageLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E462E18B7E83F90BD72DEE998B94D7 /* MessageLabel.swift */; };
@@ -50,7 +51,6 @@
 		6D44A85CB6BE6F9689B54E679DC0348E /* AccessoryPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8989A57835F97373B3F9C2244728223 /* AccessoryPosition.swift */; };
 		6F8F50A3C49BD73C3DB2D11365A5E8AE /* KeyboardEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C516C4137A70A9041B102BC7150B86 /* KeyboardEvent.swift */; };
 		70A303AD6B666B3F432E6B94C694B7A1 /* LocationMessageSizeCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F864D0F931D3F0DCF8023A77EADEF46C /* LocationMessageSizeCalculator.swift */; };
-		71B24124BA532A1E90A6537CE5BDB4BB /* Pods-FBLA-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C80F1897DCB89E54DB17E6A91615393 /* Pods-FBLA-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		759C1E07CF723C2464D9346BE2D2C1A6 /* MessageType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A7CA50140CDD20E9159491758164DC /* MessageType.swift */; };
 		7900DC1A56C2E7F9409101C3F9E26D96 /* MessageReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A821CB2E0C28A191CF9BA0A4A495903A /* MessageReusableView.swift */; };
 		7E8E6A761C55517976A58ED49D947A31 /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935D63B8775A1347AD6BCC22C8C6BAC8 /* UIColor+Extensions.swift */; };
@@ -71,7 +71,6 @@
 		A4F396BDDA94981C5345E188BEF268D4 /* AttachmentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5538D59A5DA65B3CCB68468C896B8112 /* AttachmentCell.swift */; };
 		A867B6083DABD77C29D9B2AC13C269BC /* InputBarAccessoryViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C5AF0CDDA90CA80EB2012006D25FC7 /* InputBarAccessoryViewDelegate.swift */; };
 		A87F236259F3BA5A018F1BE6230106F9 /* MessageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8894A01D6C1C9DF9D5433BAD1724D1D2 /* MessageCollectionViewCell.swift */; };
-		AC502D80EA087DC2CEB2203E42961D6E /* Pods-FBLA-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 794D5A42E1AE0B8E95AB46DBDE3651CF /* Pods-FBLA-dummy.m */; };
 		AEFE735BEED0A0E4ADB1BFD3787DC1F7 /* TypingIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F842F6DAFD1A8AD3BBFE28807E3C502 /* TypingIndicator.swift */; };
 		B326D067FE3DEEA0571D0A4903A9C964 /* AudioMessageSizeCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E06F32BEB74BEE136381358888B6F62 /* AudioMessageSizeCalculator.swift */; };
 		B44836343D9CDAFBAF83603DDCE1D877 /* MediaMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E866299C399F1A21B1E412E1F9DAD2 /* MediaMessageCell.swift */; };
@@ -81,6 +80,7 @@
 		B9125BF34CD0099C93BB4D5C60E3E767 /* ContactMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8A8D9276433E1371453B25E68DDF76 /* ContactMessageCell.swift */; };
 		B98BFAAF2C8C01D04B1566F4F6290915 /* MessageLabelDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523F5B0C972A33EB3F6161F7F6C27E6C /* MessageLabelDelegate.swift */; };
 		BBC2DDD444B04CE0C3AF25A0CF83131C /* UIImage+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272A2F515DC67684541B203535187E33 /* UIImage+Extensions.swift */; };
+		BCBA4DEB0135EDCF6AF6E512EA7B04CF /* Pods-Gather-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 49CB37870CCDD5ABFB3C8203675B797A /* Pods-Gather-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BD9923131673BF849BE1DFED6783D256 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F8E4037BD5C3038A24454EB5D4EF04F /* UIView+Extensions.swift */; };
 		BDFA346432AD262F703CDD419D86EE5C /* MessagesCollectionViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3B904FD0116E87B8496C617DEF8EE5 /* MessagesCollectionViewFlowLayout.swift */; };
 		BE54E06D968CE8ED2AE5746FE6B13B65 /* NSConstraintLayoutSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4F241C72F08480370495181A019B2B /* NSConstraintLayoutSet.swift */; };
@@ -126,19 +126,19 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		44A044136FA90F82A3EF8CA78342DF5D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2D834CBBD351637528FA6B93E42745DC;
-			remoteInfo = MessageKit;
-		};
-		67FEC19A42B75600D255763EF8E658DC /* PBXContainerItemProxy */ = {
+		1C62BE77244F50C5E2BD60AD09028DE1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = C8C39DD486923E3933801D232041B590;
 			remoteInfo = InputBarAccessoryView;
+		};
+		B4CB4DD1CB033840B1F75C71F8DC9622 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D834CBBD351637528FA6B93E42745DC;
+			remoteInfo = MessageKit;
 		};
 		ED620D246A059D1ABC7878B7AC08E096 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -150,17 +150,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00A150F37075E06DD31EB6784B54FE58 /* Pods-Gather-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Gather-dummy.m"; sourceTree = "<group>"; };
 		04066C971A8529E82BE0FB229D3E06A7 /* MessagesViewController+Keyboard.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MessagesViewController+Keyboard.swift"; path = "Sources/Controllers/MessagesViewController+Keyboard.swift"; sourceTree = "<group>"; };
 		04D9BBC37DD585FE03CBE41C99F7268B /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Sources/Assets.xcassets; sourceTree = "<group>"; };
 		06DFA606483FD58B25CD914E1D4E3264 /* MediaItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MediaItem.swift; path = Sources/Protocols/MediaItem.swift; sourceTree = "<group>"; };
 		0818155917C60263AB7C0D4F5B012BF5 /* AutocompleteSession.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AutocompleteSession.swift; path = Sources/Plugins/AutocompleteManager/Models/AutocompleteSession.swift; sourceTree = "<group>"; };
+		08B7543B119884EBF096E90CD6FF1A19 /* Pods-Gather.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Gather.release.xcconfig"; sourceTree = "<group>"; };
 		0CBEF34897380857F783357817F2DC78 /* InputItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InputItem.swift; path = Sources/Protocols/InputItem.swift; sourceTree = "<group>"; };
 		0F842F6DAFD1A8AD3BBFE28807E3C502 /* TypingIndicator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TypingIndicator.swift; path = Sources/Views/TypingIndicator.swift; sourceTree = "<group>"; };
 		11CCF1E462129FEE433906F5A6FF7BB1 /* MessageContainerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MessageContainerView.swift; path = Sources/Views/MessageContainerView.swift; sourceTree = "<group>"; };
 		15A68A8F33BD9EB9AFD02465B0418BCF /* MessageKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MessageKit.framework; path = MessageKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		17927DC06E2A76292EB695CB04FECBBB /* Pods-FBLA-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FBLA-acknowledgements.markdown"; sourceTree = "<group>"; };
 		18C5AF0CDDA90CA80EB2012006D25FC7 /* InputBarAccessoryViewDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InputBarAccessoryViewDelegate.swift; path = Sources/Protocols/InputBarAccessoryViewDelegate.swift; sourceTree = "<group>"; };
 		1B34E9183DEB71004286F113DA58DC06 /* LocationItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LocationItem.swift; path = Sources/Protocols/LocationItem.swift; sourceTree = "<group>"; };
+		1B7423EFA9BCC812C3C4EB63BAC1D895 /* Pods-Gather.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Gather.modulemap"; sourceTree = "<group>"; };
 		1B89A0CA02204A6A71B4059CB9219664 /* MessageKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MessageKit-umbrella.h"; sourceTree = "<group>"; };
 		1BE34C871A4A29A28E2F566ECFEA61EE /* AudioMessageCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AudioMessageCell.swift; path = Sources/Views/Cells/AudioMessageCell.swift; sourceTree = "<group>"; };
 		1E898A7D9AC9C44C5EC5FC58ACA54C39 /* LocationMessageSnapshotOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LocationMessageSnapshotOptions.swift; path = Sources/Models/LocationMessageSnapshotOptions.swift; sourceTree = "<group>"; };
@@ -172,7 +174,6 @@
 		32E462E18B7E83F90BD72DEE998B94D7 /* MessageLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MessageLabel.swift; path = Sources/Views/MessageLabel.swift; sourceTree = "<group>"; };
 		33F86550EB704DB281A83E9E5F282F04 /* LinkPreviewView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LinkPreviewView.swift; path = Sources/Views/LinkPreviewView.swift; sourceTree = "<group>"; };
 		349C0EFA3119B48C7B1FA692A71AE437 /* HorizontalEdgePadding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HorizontalEdgePadding.swift; path = Sources/Models/HorizontalEdgePadding.swift; sourceTree = "<group>"; };
-		3C80F1897DCB89E54DB17E6A91615393 /* Pods-FBLA-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FBLA-umbrella.h"; sourceTree = "<group>"; };
 		3D4F241C72F08480370495181A019B2B /* NSConstraintLayoutSet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSConstraintLayoutSet.swift; path = Sources/Models/NSConstraintLayoutSet.swift; sourceTree = "<group>"; };
 		3D8A8D9276433E1371453B25E68DDF76 /* ContactMessageCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContactMessageCell.swift; path = Sources/Views/Cells/ContactMessageCell.swift; sourceTree = "<group>"; };
 		3DEA6980B437EA46D1C4D5266226435E /* HorizontalEdgeInsets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HorizontalEdgeInsets.swift; path = Sources/Models/HorizontalEdgeInsets.swift; sourceTree = "<group>"; };
@@ -182,7 +183,7 @@
 		47C4FDACF97623B7D9A7CBDFF4403BFE /* MessageKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MessageKit-Info.plist"; sourceTree = "<group>"; };
 		47C8850F2847B933235F4FFC1DF3B540 /* InputBarButtonItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InputBarButtonItem.swift; path = Sources/Controls/InputBarButtonItem.swift; sourceTree = "<group>"; };
 		493532FF6C64E75812C59C3E0A778F34 /* MediaMessageSizeCalculator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MediaMessageSizeCalculator.swift; path = Sources/Layout/MediaMessageSizeCalculator.swift; sourceTree = "<group>"; };
-		4C644CED519B7FB664D137829AA68D62 /* Pods-FBLA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FBLA.release.xcconfig"; sourceTree = "<group>"; };
+		49CB37870CCDD5ABFB3C8203675B797A /* Pods-Gather-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Gather-umbrella.h"; sourceTree = "<group>"; };
 		4E06F32BEB74BEE136381358888B6F62 /* AudioMessageSizeCalculator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AudioMessageSizeCalculator.swift; path = Sources/Layout/AudioMessageSizeCalculator.swift; sourceTree = "<group>"; };
 		4F1FFF73EB9F1DE3011BAB71E2283C00 /* ContactMessageSizeCalculator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContactMessageSizeCalculator.swift; path = Sources/Layout/ContactMessageSizeCalculator.swift; sourceTree = "<group>"; };
 		523F5B0C972A33EB3F6161F7F6C27E6C /* MessageLabelDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MessageLabelDelegate.swift; path = Sources/Protocols/MessageLabelDelegate.swift; sourceTree = "<group>"; };
@@ -200,9 +201,11 @@
 		5CBFE0E3E1F5D1F418C1DBA4CCA739A5 /* AvatarView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AvatarView.swift; path = Sources/Views/AvatarView.swift; sourceTree = "<group>"; };
 		5CCE867621BFE2DB2852769DE13299FC /* DetectorType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DetectorType.swift; path = Sources/Models/DetectorType.swift; sourceTree = "<group>"; };
 		618AE230C3920BE176DF877D5684A58D /* AutocompleteTableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AutocompleteTableView.swift; path = Sources/Plugins/AutocompleteManager/Views/AutocompleteTableView.swift; sourceTree = "<group>"; };
+		62604C8A46AD299A97AB7D72CEC85EF0 /* Pods-Gather-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Gather-acknowledgements.markdown"; sourceTree = "<group>"; };
 		62D8A6CD589875631E867E9AC91F3BD3 /* InputBarAccessoryView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = InputBarAccessoryView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6731DE769D9FC9035A26E1C4DD45FFA4 /* InputBarAccessoryView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = InputBarAccessoryView.release.xcconfig; sourceTree = "<group>"; };
 		6976E207B76F8130C413BEE650F0D97B /* LinkPreviewMessageCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LinkPreviewMessageCell.swift; path = Sources/Views/Cells/LinkPreviewMessageCell.swift; sourceTree = "<group>"; };
+		6A3AD2247B7672DF99B689E0D48DCBAD /* Pods-Gather-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Gather-Info.plist"; sourceTree = "<group>"; };
 		6A71ECE009B66C14ECF43E8BC6A33205 /* TextMessageCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextMessageCell.swift; path = Sources/Views/Cells/TextMessageCell.swift; sourceTree = "<group>"; };
 		6B5A2A2105972F563C26E9E77B5C41D8 /* MessagesLayoutDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MessagesLayoutDelegate.swift; path = Sources/Protocols/MessagesLayoutDelegate.swift; sourceTree = "<group>"; };
 		6CD22AA3411661E21766C871F1FCFFA3 /* NSMutableAttributedString+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSMutableAttributedString+Extensions.swift"; path = "Sources/Extensions/NSMutableAttributedString+Extensions.swift"; sourceTree = "<group>"; };
@@ -213,7 +216,6 @@
 		73CBFB2F3D43C2EBCD5DFD2B4B00A869 /* CellSizeCalculator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CellSizeCalculator.swift; path = Sources/Layout/CellSizeCalculator.swift; sourceTree = "<group>"; };
 		75DACE5C280326236BBBE11BEF10AEA1 /* CGRect+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CGRect+Extensions.swift"; path = "Sources/Extensions/CGRect+Extensions.swift"; sourceTree = "<group>"; };
 		77460BB1A72F7482D119FADC874AB6D4 /* AutocompleteCompletion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AutocompleteCompletion.swift; path = Sources/Plugins/AutocompleteManager/Models/AutocompleteCompletion.swift; sourceTree = "<group>"; };
-		794D5A42E1AE0B8E95AB46DBDE3651CF /* Pods-FBLA-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FBLA-dummy.m"; sourceTree = "<group>"; };
 		795242F5350B16F41FEFA151C766EBC9 /* AttachmentManagerDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AttachmentManagerDataSource.swift; path = Sources/Plugins/AttachmentManager/Protocols/AttachmentManagerDataSource.swift; sourceTree = "<group>"; };
 		79962DE92B55BDE8CFDDCD4BEBAFD469 /* MessageKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MessageKit.debug.xcconfig; sourceTree = "<group>"; };
 		7AF181A81AC8B89EC8FB5433D94FAD8F /* SenderType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SenderType.swift; path = Sources/Protocols/SenderType.swift; sourceTree = "<group>"; };
@@ -226,14 +228,15 @@
 		8894A01D6C1C9DF9D5433BAD1724D1D2 /* MessageCollectionViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MessageCollectionViewCell.swift; path = Sources/Views/Cells/MessageCollectionViewCell.swift; sourceTree = "<group>"; };
 		8F8E4037BD5C3038A24454EB5D4EF04F /* UIView+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Extensions.swift"; path = "Sources/Extensions/UIView+Extensions.swift"; sourceTree = "<group>"; };
 		8FCCC4F54461C3D8297D5CF3A93C4BEB /* LocationMessageCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LocationMessageCell.swift; path = Sources/Views/Cells/LocationMessageCell.swift; sourceTree = "<group>"; };
+		90381091F6FBC6E399D1E7D367523AA6 /* Pods-Gather.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Gather.debug.xcconfig"; sourceTree = "<group>"; };
 		91829C86682CF316A1CC5C01A1459AF1 /* AutocompleteCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AutocompleteCell.swift; path = Sources/Plugins/AutocompleteManager/Views/AutocompleteCell.swift; sourceTree = "<group>"; };
+		9346449E00B3398CC776848DF617ED0D /* Pods_Gather.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Gather.framework; path = "Pods-Gather.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		935D63B8775A1347AD6BCC22C8C6BAC8 /* UIColor+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIColor+Extensions.swift"; path = "Sources/Extensions/UIColor+Extensions.swift"; sourceTree = "<group>"; };
 		94B9BA3E9B24EED64AA020458B2C83F3 /* MessagesViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MessagesViewController.swift; path = Sources/Controllers/MessagesViewController.swift; sourceTree = "<group>"; };
 		959774B0A121C344DA7FB3D71D198B69 /* MessageKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MessageKit.release.xcconfig; sourceTree = "<group>"; };
 		978253F61E90515AD46B70619F614D86 /* MessageInputBar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MessageInputBar.swift; path = Sources/Supporting/MessageInputBar.swift; sourceTree = "<group>"; };
 		98E194FC9F45410C79BC9FDFE2931457 /* UIEdgeInsets+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIEdgeInsets+Extensions.swift"; path = "Sources/Extensions/UIEdgeInsets+Extensions.swift"; sourceTree = "<group>"; };
 		99140727C6AE7A030EF062DF596C23AC /* TypingIndicatorCellSizeCalculator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TypingIndicatorCellSizeCalculator.swift; path = Sources/Layout/TypingIndicatorCellSizeCalculator.swift; sourceTree = "<group>"; };
-		9A7637BCB0398F415790CC6357604835 /* Pods-FBLA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FBLA.debug.xcconfig"; sourceTree = "<group>"; };
 		9A7CA228BE77852A288A40194590BE04 /* MessageKind+textMessageKind.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MessageKind+textMessageKind.swift"; path = "Sources/Extensions/MessageKind+textMessageKind.swift"; sourceTree = "<group>"; };
 		9CE1EC1F91BF3A7AC77342F837FCBB4E /* AttachmentManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AttachmentManager.swift; path = Sources/Plugins/AttachmentManager/AttachmentManager.swift; sourceTree = "<group>"; };
 		9D74872F5911BD250B7EDD23B63B5E53 /* AttachmentManagerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AttachmentManagerDelegate.swift; path = Sources/Plugins/AttachmentManager/Protocols/AttachmentManagerDelegate.swift; sourceTree = "<group>"; };
@@ -251,14 +254,12 @@
 		AB6AA12075734F928B0AFA9670F10EA1 /* MessagesDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MessagesDataSource.swift; path = Sources/Protocols/MessagesDataSource.swift; sourceTree = "<group>"; };
 		AD49E131E4498D148B0C84ED8FE7758B /* MessageKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MessageKit.modulemap; sourceTree = "<group>"; };
 		AE0793901FE77E8B71684CA0541A7E98 /* Avatar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Avatar.swift; path = Sources/Models/Avatar.swift; sourceTree = "<group>"; };
-		AED96E18A7032BFCC312629A7C188389 /* Pods-FBLA-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FBLA-Info.plist"; sourceTree = "<group>"; };
-		B0A761F39F455B3FBBE9754542B640D0 /* Pods-FBLA-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FBLA-frameworks.sh"; sourceTree = "<group>"; };
 		B120B0F7F2AA233A6784A68B8151BE3E /* AudioItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AudioItem.swift; path = Sources/Protocols/AudioItem.swift; sourceTree = "<group>"; };
 		B1A7657932AC7F7843EF79F56B4916BD /* MessagesCollectionViewLayoutAttributes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MessagesCollectionViewLayoutAttributes.swift; path = Sources/Layout/MessagesCollectionViewLayoutAttributes.swift; sourceTree = "<group>"; };
 		B1B27DE6B7D8B219A82525A8D322CF13 /* Sender.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Sender.swift; path = Sources/Models/Sender.swift; sourceTree = "<group>"; };
 		B5056E4E3509614A620E5D9FD3CF271C /* AutocompleteManagerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AutocompleteManagerDelegate.swift; path = Sources/Plugins/AutocompleteManager/Protocols/AutocompleteManagerDelegate.swift; sourceTree = "<group>"; };
+		B540B2FEB7A81D6F433CA996836BAFFA /* Pods-Gather-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Gather-acknowledgements.plist"; sourceTree = "<group>"; };
 		B64C0B94BD45DF37FD88DC6471EFCD79 /* NSNotification+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSNotification+Extensions.swift"; path = "Sources/Extensions/NSNotification+Extensions.swift"; sourceTree = "<group>"; };
-		B7CDAC41D2A70DB5BCA775C4E7C9C6DD /* Pods-FBLA-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FBLA-acknowledgements.plist"; sourceTree = "<group>"; };
 		B81513B0B3333500DFFB1B1B179FB571 /* InputBarAccessoryView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = InputBarAccessoryView.framework; path = InputBarAccessoryView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA5656A2CF00E815F59463D877AB8074 /* InputBarViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InputBarViewController.swift; path = Sources/ViewControllers/InputBarViewController.swift; sourceTree = "<group>"; };
 		BE2739E3539DD376060095C7CB0DE7F7 /* UITextView+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITextView+Extensions.swift"; path = "Sources/Extensions/UITextView+Extensions.swift"; sourceTree = "<group>"; };
@@ -268,7 +269,7 @@
 		C6E1C4E8D2EDA4F577112ADDC018C365 /* LabelAlignment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LabelAlignment.swift; path = Sources/Models/LabelAlignment.swift; sourceTree = "<group>"; };
 		C96E3E048F6B54E1815C14309082BF6B /* PlayButtonView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PlayButtonView.swift; path = Sources/Views/PlayButtonView.swift; sourceTree = "<group>"; };
 		CADBE0D7BF0AE33E4BCC9EDD0B6EEF3B /* ImageAttachmentCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageAttachmentCell.swift; path = Sources/Plugins/AttachmentManager/Views/ImageAttachmentCell.swift; sourceTree = "<group>"; };
-		CC537526CAA5C7920603EC5FCF1AC286 /* Pods_FBLA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FBLA.framework; path = "Pods-FBLA.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC1B8F7BC0A14EE5CB5587849EDC0000 /* Pods-Gather-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Gather-frameworks.sh"; sourceTree = "<group>"; };
 		D23F730EBD57E140CD763BDFEBE561F0 /* MessageKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MessageKit-prefix.pch"; sourceTree = "<group>"; };
 		D7BCB1C3C8308F875514646B6B15FCDE /* InputStackView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InputStackView.swift; path = Sources/Views/InputStackView.swift; sourceTree = "<group>"; };
 		DB9BC14028E0066ED625AF4D941A94AF /* MessagesCollectionView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MessagesCollectionView.swift; path = Sources/Views/MessagesCollectionView.swift; sourceTree = "<group>"; };
@@ -284,10 +285,17 @@
 		F864D0F931D3F0DCF8023A77EADEF46C /* LocationMessageSizeCalculator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LocationMessageSizeCalculator.swift; path = Sources/Layout/LocationMessageSizeCalculator.swift; sourceTree = "<group>"; };
 		FA42CCA23DA6A51F23445E06574A734B /* MessageKitDateFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MessageKitDateFormatter.swift; path = Sources/Models/MessageKitDateFormatter.swift; sourceTree = "<group>"; };
 		FB0DC38A542FC4DC428AB4C9D55CA0B1 /* MessageCellDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MessageCellDelegate.swift; path = Sources/Protocols/MessageCellDelegate.swift; sourceTree = "<group>"; };
-		FE9516D0F71776AABA7D5CD1B60CADDF /* Pods-FBLA.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FBLA.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		1C8D03BAE265A109A6D77D7C642211BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AB6196B0819B40F12115DDA99E79C76 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		452D9A06FA28936AB3DBCB0C0A9CCB10 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -306,50 +314,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C53663D54E513A235DB5A02ACD132394 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				49CD5F2B6F25EBE48D3A2AAFC54A8715 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1AEA0F6104BA1917AF15385F36F62B75 /* Pods-FBLA */ = {
-			isa = PBXGroup;
-			children = (
-				FE9516D0F71776AABA7D5CD1B60CADDF /* Pods-FBLA.modulemap */,
-				17927DC06E2A76292EB695CB04FECBBB /* Pods-FBLA-acknowledgements.markdown */,
-				B7CDAC41D2A70DB5BCA775C4E7C9C6DD /* Pods-FBLA-acknowledgements.plist */,
-				794D5A42E1AE0B8E95AB46DBDE3651CF /* Pods-FBLA-dummy.m */,
-				B0A761F39F455B3FBBE9754542B640D0 /* Pods-FBLA-frameworks.sh */,
-				AED96E18A7032BFCC312629A7C188389 /* Pods-FBLA-Info.plist */,
-				3C80F1897DCB89E54DB17E6A91615393 /* Pods-FBLA-umbrella.h */,
-				9A7637BCB0398F415790CC6357604835 /* Pods-FBLA.debug.xcconfig */,
-				4C644CED519B7FB664D137829AA68D62 /* Pods-FBLA.release.xcconfig */,
-			);
-			name = "Pods-FBLA";
-			path = "Target Support Files/Pods-FBLA";
-			sourceTree = "<group>";
-		};
 		2418266216B389CD5775D6523456BC4E /* Resources */ = {
 			isa = PBXGroup;
 			children = (
 				04D9BBC37DD585FE03CBE41C99F7268B /* Assets.xcassets */,
 			);
 			name = Resources;
-			sourceTree = "<group>";
-		};
-		37AAD6E3A5CA32A2EFCB3FCDFC8FF89E /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				B81513B0B3333500DFFB1B1B179FB571 /* InputBarAccessoryView.framework */,
-				15A68A8F33BD9EB9AFD02465B0418BCF /* MessageKit.framework */,
-				CC537526CAA5C7920603EC5FCF1AC286 /* Pods_FBLA.framework */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		81962EEA0B9519B28D5A97E23BB1D0F2 /* Pods */ = {
@@ -451,15 +424,33 @@
 			path = "../Target Support Files/InputBarAccessoryView";
 			sourceTree = "<group>";
 		};
+		C482EC3737B968AB87109E0B69E7FB7D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B81513B0B3333500DFFB1B1B179FB571 /* InputBarAccessoryView.framework */,
+				15A68A8F33BD9EB9AFD02465B0418BCF /* MessageKit.framework */,
+				9346449E00B3398CC776848DF617ED0D /* Pods_Gather.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				B2847FE6A167141ABE735AFA649FD829 /* Frameworks */,
 				81962EEA0B9519B28D5A97E23BB1D0F2 /* Pods */,
-				37AAD6E3A5CA32A2EFCB3FCDFC8FF89E /* Products */,
-				E16229560B8F2E14DEE08958B2CD42A8 /* Targets Support Files */,
+				C482EC3737B968AB87109E0B69E7FB7D /* Products */,
+				D37C7DA71B5750D8FE25E39EDDA8694A /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		D37C7DA71B5750D8FE25E39EDDA8694A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DEB39CE07F3C423AEF0DF5391303E715 /* Pods-Gather */,
+			);
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		D3B913D7989B551C267627E432A8678B /* MessageKit */ = {
@@ -551,12 +542,21 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		E16229560B8F2E14DEE08958B2CD42A8 /* Targets Support Files */ = {
+		DEB39CE07F3C423AEF0DF5391303E715 /* Pods-Gather */ = {
 			isa = PBXGroup;
 			children = (
-				1AEA0F6104BA1917AF15385F36F62B75 /* Pods-FBLA */,
+				1B7423EFA9BCC812C3C4EB63BAC1D895 /* Pods-Gather.modulemap */,
+				62604C8A46AD299A97AB7D72CEC85EF0 /* Pods-Gather-acknowledgements.markdown */,
+				B540B2FEB7A81D6F433CA996836BAFFA /* Pods-Gather-acknowledgements.plist */,
+				00A150F37075E06DD31EB6784B54FE58 /* Pods-Gather-dummy.m */,
+				CC1B8F7BC0A14EE5CB5587849EDC0000 /* Pods-Gather-frameworks.sh */,
+				6A3AD2247B7672DF99B689E0D48DCBAD /* Pods-Gather-Info.plist */,
+				49CB37870CCDD5ABFB3C8203675B797A /* Pods-Gather-umbrella.h */,
+				90381091F6FBC6E399D1E7D367523AA6 /* Pods-Gather.debug.xcconfig */,
+				08B7543B119884EBF096E90CD6FF1A19 /* Pods-Gather.release.xcconfig */,
 			);
-			name = "Targets Support Files";
+			name = "Pods-Gather";
+			path = "Target Support Files/Pods-Gather";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -570,19 +570,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		546F8FF2C30B69CE8B548F4803C4049B /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				71B24124BA532A1E90A6537CE5BDB4BB /* Pods-FBLA-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		8449FD81DACB80305E2EE7C4466A7868 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				3BB84AAE620666686A2BEBF85161EF71 /* MessageKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E4B665BCAAC19A9B9F4B161E2ABCF25 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCBA4DEB0135EDCF6AF6E512EA7B04CF /* Pods-Gather-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -608,24 +608,24 @@
 			productReference = 15A68A8F33BD9EB9AFD02465B0418BCF /* MessageKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		9F248115D0F052C17A9BDCD490F840FC /* Pods-FBLA */ = {
+		310809B16A44EF9FEECA0EB631F3D917 /* Pods-Gather */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AB2A182E3F1E7C2C6868BAFBE50251BA /* Build configuration list for PBXNativeTarget "Pods-FBLA" */;
+			buildConfigurationList = F4248998531ED2B531B7623230D1B2CB /* Build configuration list for PBXNativeTarget "Pods-Gather" */;
 			buildPhases = (
-				546F8FF2C30B69CE8B548F4803C4049B /* Headers */,
-				BCF54B4E152981AD040DE7AA89AD6B3B /* Sources */,
-				C53663D54E513A235DB5A02ACD132394 /* Frameworks */,
-				7CB70A0D8DC074675ADFE5EE1CC9B8A8 /* Resources */,
+				9E4B665BCAAC19A9B9F4B161E2ABCF25 /* Headers */,
+				EB11319527352375972CC6F572F9F886 /* Sources */,
+				1C8D03BAE265A109A6D77D7C642211BF /* Frameworks */,
+				F8E87B7E0F54869A6F6F4B1E70CDB3D4 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				7249CD62098CA848EBB177BFDA7B7061 /* PBXTargetDependency */,
-				F17E97DB40843264E8E511B10B139C71 /* PBXTargetDependency */,
+				FA483DFD85D3F92D602089B590441C38 /* PBXTargetDependency */,
+				CE534820D4C95A932EACAA4863115A34 /* PBXTargetDependency */,
 			);
-			name = "Pods-FBLA";
-			productName = "Pods-FBLA";
-			productReference = CC537526CAA5C7920603EC5FCF1AC286 /* Pods_FBLA.framework */;
+			name = "Pods-Gather";
+			productName = "Pods-Gather";
+			productReference = 9346449E00B3398CC776848DF617ED0D /* Pods_Gather.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		C8C39DD486923E3933801D232041B590 /* InputBarAccessoryView */ = {
@@ -664,13 +664,13 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 37AAD6E3A5CA32A2EFCB3FCDFC8FF89E /* Products */;
+			productRefGroup = C482EC3737B968AB87109E0B69E7FB7D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				C8C39DD486923E3933801D232041B590 /* InputBarAccessoryView */,
 				2D834CBBD351637528FA6B93E42745DC /* MessageKit */,
-				9F248115D0F052C17A9BDCD490F840FC /* Pods-FBLA */,
+				310809B16A44EF9FEECA0EB631F3D917 /* Pods-Gather */,
 			);
 		};
 /* End PBXProject section */
@@ -683,18 +683,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7CB70A0D8DC074675ADFE5EE1CC9B8A8 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		88EAD05D156566190EED9CD27D10CFE1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				FC6EBCCDF77F546934BFD1156980ED80 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8E87B7E0F54869A6F6F4B1E70CDB3D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -740,14 +740,6 @@
 				99EEE6E81393E604F5BCD50D86D6B636 /* String+Extensions.swift in Sources */,
 				C86EC46733E39279FA361F2441542322 /* UITextView+Extensions.swift in Sources */,
 				82305FE0639BB4C5525FF8914AD9B464 /* UIView+AutoLayout.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BCF54B4E152981AD040DE7AA89AD6B3B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AC502D80EA087DC2CEB2203E42961D6E /* Pods-FBLA-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -829,14 +821,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EB11319527352375972CC6F572F9F886 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BD8F2F9B6707054E9108E7E359A093C /* Pods-Gather-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		7249CD62098CA848EBB177BFDA7B7061 /* PBXTargetDependency */ = {
+		CE534820D4C95A932EACAA4863115A34 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = InputBarAccessoryView;
-			target = C8C39DD486923E3933801D232041B590 /* InputBarAccessoryView */;
-			targetProxy = 67FEC19A42B75600D255763EF8E658DC /* PBXContainerItemProxy */;
+			name = MessageKit;
+			target = 2D834CBBD351637528FA6B93E42745DC /* MessageKit */;
+			targetProxy = B4CB4DD1CB033840B1F75C71F8DC9622 /* PBXContainerItemProxy */;
 		};
 		DA29D3CDCDF89F2C0549D324F3A69E5A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -844,52 +844,15 @@
 			target = C8C39DD486923E3933801D232041B590 /* InputBarAccessoryView */;
 			targetProxy = ED620D246A059D1ABC7878B7AC08E096 /* PBXContainerItemProxy */;
 		};
-		F17E97DB40843264E8E511B10B139C71 /* PBXTargetDependency */ = {
+		FA483DFD85D3F92D602089B590441C38 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = MessageKit;
-			target = 2D834CBBD351637528FA6B93E42745DC /* MessageKit */;
-			targetProxy = 44A044136FA90F82A3EF8CA78342DF5D /* PBXContainerItemProxy */;
+			name = InputBarAccessoryView;
+			target = C8C39DD486923E3933801D232041B590 /* InputBarAccessoryView */;
+			targetProxy = 1C62BE77244F50C5E2BD60AD09028DE1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0696F71BFD04C60854FC0633DE143C77 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9A7637BCB0398F415790CC6357604835 /* Pods-FBLA.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-FBLA/Pods-FBLA-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-FBLA/Pods-FBLA.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		2B9E26EAE2CD392AD762421F663075A1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -953,6 +916,43 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		4F5964711A127AA19E1818B4DCCD504C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90381091F6FBC6E399D1E7D367523AA6 /* Pods-Gather.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Gather/Pods-Gather-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Gather/Pods-Gather.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
@@ -1125,9 +1125,9 @@
 			};
 			name = Debug;
 		};
-		959218F7D4972C0BB96E8A325EE544B1 /* Release */ = {
+		9A4E2139628CFD082EC3F54845F129BF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4C644CED519B7FB664D137829AA68D62 /* Pods-FBLA.release.xcconfig */;
+			baseConfigurationReference = 08B7543B119884EBF096E90CD6FF1A19 /* Pods-Gather.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1139,7 +1139,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-FBLA/Pods-FBLA-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-Gather/Pods-Gather-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1148,7 +1148,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-FBLA/Pods-FBLA.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-Gather/Pods-Gather.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -1219,20 +1219,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AB2A182E3F1E7C2C6868BAFBE50251BA /* Build configuration list for PBXNativeTarget "Pods-FBLA" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0696F71BFD04C60854FC0633DE143C77 /* Debug */,
-				959218F7D4972C0BB96E8A325EE544B1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		D6A6060E8D420607701A6B43DC06F143 /* Build configuration list for PBXNativeTarget "MessageKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6E9A55BAE09BD046966C633E4CFFBCD3 /* Debug */,
 				621732602061A60950A7B7A9FD0BB6F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4248998531ED2B531B7623230D1B2CB /* Build configuration list for PBXNativeTarget "Pods-Gather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F5964711A127AA19E1818B4DCCD504C /* Debug */,
+				9A4E2139628CFD082EC3F54845F129BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

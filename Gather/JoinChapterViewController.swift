@@ -31,7 +31,12 @@ class JoinChapterViewController: UIViewController {
 			} else if output == "Verification error" {
 				self.errorText.text = output
 				self.load.stopAnimating()
-			} else if output == "Success!" {
+			} else if output != "" && output[output.startIndex] == "S" {
+				self.load.stopAnimating()
+				let names = String(output[output.index(after: output.startIndex)...]).components(separatedBy: ",")
+				Globals.name = names[0]
+				Globals.people = names
+				print(Globals.people)
 				self.load.stopAnimating()
 				
 				let mainStoryBoard : UIStoryboard = UIStoryboard(name: "Main", bundle:nil)

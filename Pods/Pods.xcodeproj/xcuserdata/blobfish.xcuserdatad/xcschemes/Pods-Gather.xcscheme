@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "9F248115D0F052C17A9BDCD490F840FC"
-               BuildableName = "Pods_FBLA.framework"
-               BlueprintName = "Pods-FBLA"
+               BlueprintIdentifier = "310809B16A44EF9FEECA0EB631F3D917"
+               BuildableName = "Pods_Gather.framework"
+               BlueprintName = "Pods-Gather"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

@@ -10,10 +10,14 @@ import UIKit
 
 struct Globals {
 	static let host = "https://fbla-app.herokuapp.com"
+//	static let host = "http://209.237.81.241:8080"
 	static var email = ""
 	static var name = ""
 	static var pass = ""
 	static var isAdvisor = 0
+	static var lastIdSelected = 0
+	static var messagesBeingShown = false
+	static var people = [""]
 	static func request(_ directory:String, input:String, action: @escaping (String,String) -> Void) {
 		var errors = ""
 		var output = ""

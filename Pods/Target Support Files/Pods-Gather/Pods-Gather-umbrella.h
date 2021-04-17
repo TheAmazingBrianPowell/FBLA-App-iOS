@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_FBLAVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_FBLAVersionString[];
+FOUNDATION_EXPORT double Pods_GatherVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_GatherVersionString[];
 

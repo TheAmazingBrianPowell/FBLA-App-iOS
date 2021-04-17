@@ -22,6 +22,9 @@ class ReportBugViewController: UIViewController {
 		if #available(iOS 13.0, *) {
 			load.style = .large
 		}
+		
+		// allows for user to exit focus on an input
+		view.addGestureRecognizer(UITapGestureRecognizer(target: self.view, action: #selector(UIView.endEditing)))
     }
 	
 	@IBAction func onReport(_ sender: UIButton) {
@@ -34,7 +37,7 @@ class ReportBugViewController: UIViewController {
 					self.load.stopAnimating()
 				} else if output == "Success!" {
 					self.load.stopAnimating()
-					self.successText.text = "Your response has been recorded, thank you!"
+					self.successText.text = "Your response has been recorded"
 				} else if output != "" {
 					self.load.stopAnimating()
 					self.errorText.text = output

@@ -49,7 +49,11 @@ class ViewController: UIViewController {
 				self.errorText.text = output
 				self.load.stopAnimating()
 				self.logInButton.setTitle("Log In", for:.normal)
-			} else if output == "Success!" {
+			}  else if output != "" && output[output.startIndex] == "S" {
+				self.load.stopAnimating()
+				let names = String(output[output.index(after: output.startIndex)...]).components(separatedBy: ",")
+				Globals.name = names[0]
+				Globals.people = names
 				self.load.stopAnimating()
 				self.logInButton.setTitle("Log In", for:.normal)
 				
